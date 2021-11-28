@@ -20,7 +20,7 @@ If you're concerned about generating your addresses online, there is always the 
 2. Clone this repo **on server** on **docker branch**;
 3. Copy `/public` content from **local** to `/public` folder on **docker branch** you cloned in **server**;
 4. Run: `docker build -t ppc-wallet .`;
-5. Run: `docker run --name ppc-wallet-nginx --restart on-failure -p 5001:80 ppc-wallet`.
+5. Run: `docker run --name ppc-wallet-nginx --restart on-failure -p 3333:80 ppc-wallet`.
 
 The Reverse-proxy and SSL files are located on local NGINX (outside of docker). They can be found at: `/etc/nginx/sites-available/default`.
 
@@ -45,7 +45,7 @@ The configuration used at `/etc/nginx/sites-available/default` is:
 # Sumcoin Wallet configs
 
 upstream ppc-wallet-generator {
-  server 127.0.0.1:5001;
+  server 127.0.0.1:3333;
 }
 
 server {
