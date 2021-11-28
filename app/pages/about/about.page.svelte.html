@@ -38,11 +38,11 @@
     },
     helpers: {
       timeAlive() {
-        const PPC_GENESIS = 1344794258295;
+        const SUM_GENESIS = 1344794258295;
         const NOW = +new Date();
         const YEAR = 31536000000;
 
-        return Math.round((NOW - PPC_GENESIS) / YEAR);
+        return Math.round((NOW - SUM_GENESIS) / YEAR);
       }
     }
   }
