@@ -13,17 +13,17 @@
   "about": {
     "titleAbout": "Sobre",
     "backBtn": "Voltar",
-    "about1": "Este gerador de carteira foi construído do zero para o Peercoin.",
+    "about1": "Este gerador de carteira foi construído do zero para o Sumcoin.",
     "about2": "O objetivo principal é entregar uma experiência agradável e rápida para dispositivos móveis, que parecem esquecidos por geradores de carteiras clássicos. Nós usamos tecnologias de ponta, então por favor entenda que navegadores antigos podem não funcionar como esperado (ou nem funcionar) com esta aplicação.",
-    "titlePeercoin": "Peercoin",
-    "peercoin1": "Peercoin é a primeira criptomoeda a implementar o sistema Proof of Stake, e a primeira moeda híbrida a usar Proof of Work e Proof of Stake em conjunto. Criada em 2012, ela já está rodando a mais de 5 anos, gastanto uma quantidade de energia consideravelmente menor do que moedas puramente PoW como Bitcoin, por exemplo. Durante estes anos, o Peercoin também nunca teve nenhum envolvimento com pré-mineiração, ICOs fraudulentas ou falhas graves de segurança.",
+    "titleSumcoin": "Sumcoin",
+    "sumcoin1": "Sumcoin é a primeira criptomoeda a implementar o sistema Proof of Stake, e a primeira moeda híbrida a usar Proof of Work e Proof of Stake em conjunto. Criada em 2012, ela já está rodando a mais de 5 anos, gastanto uma quantidade de energia consideravelmente menor do que moedas puramente PoW como Bitcoin, por exemplo. Durante estes anos, o Sumcoin também nunca teve nenhum envolvimento com pré-mineiração, ICOs fraudulentas ou falhas graves de segurança.",
     "titleDisclaimer": "Sobre",
-    "disclaimer1": "Peercoin team, this wallet developers, or anyone involved with Peercoin do not hold any responsibility for money lost upon wallet generation from this tool, or any other means involving Peercoin or other cryptocurrencies. The owner of the wallet generated is responsible for its money and thus should follow all security steps in order to keep them safe. We do our best to keep this tool as up-to-date and secure as possible. This tool is 100% open-source. If you find any bugs or issues, please report to our repository.",
+    "disclaimer1": "Sumcoin team, this wallet developers, or anyone involved with Sumcoin do not hold any responsibility for money lost upon wallet generation from this tool, or any other means involving Sumcoin or other cryptocurrencies. The owner of the wallet generated is responsible for its money and thus should follow all security steps in order to keep them safe. We do our best to keep this tool as up-to-date and secure as possible. This tool is 100% open-source. If you find any bugs or issues, please report to our repository.",
     "disclaimer2": "The main focus is to deliver a good and fast experience for mobile users, which seem forsaken by classic wallet generators. We're using cutting edge browser technologies in order to deliver this better experience, so please understand that older browsers may not work as expected (or at all) with this application.",
     "titleCredits": "Créditos",
     "credits1": "Esta é uma ferramenta open-source, e como tal, contém bibliotecas de terceiros com suas respectivas licensas. Estas licensas podem ser encontradas no repositório deste projeto.",
     "credits2": "Caso você detecte alguma ausência de licensas específicas, por favor abra uma Issue no nosso repositório.",
-    "credits3": "Desenvolvido por <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, tornado possível pela Comunidade Peercoin."
+    "credits3": "Desenvolvido por <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, tornado possível pela Comunidade Sumcoin."
   },
   "generator": {
     "title": "Arraste o dedo aleatóriamente.",

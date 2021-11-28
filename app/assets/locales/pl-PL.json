@@ -13,17 +13,17 @@
   "about": {
     "titleAbout": "O",
     "backBtn": "Wstecz",
-    "about1": "Ten generator portfel został zbudowany od zera dla Peercoin'a.",
+    "about1": "Ten generator portfel został zbudowany od zera dla Sumcoin'a.",
     "about2": "Głównym celem jest dostarczenie dobrych wrażeń dla użytkowników mobilnych, którzy bywają zapomniani przez klasyczne generatory portfeli. Używamy najnowszych technologii w celu dostarczeniu lepszych wrażeń, więc proszę zrozum, że starsze mogą nie działać tak jak powinny (albo w ogóle) z tą aplikacją.",
-    "titlePeercoin": "Peercoin",
-    "peercoin1": "Peercoin jest pierwszą kryptowalutą, która zaimplementowałem hybrydowy Proof of Work (POW) i Proof of Stake (POS) konsensus. Stworzona w 2012, działa już ponad<b>sześć lat</b> z zauważalnie mniejszą zużyciem energii niż czyste PoW (kopane) kryptowaluty takie jak Bitcoin. Przez te sześć lat Peercoin night nie miał żadnego udziału w pre-miningu (udostępnienie tokenów w pierwszych blokach kryptowaluty, przed jej publicznym startem), nieuczciwymi ICO czy krytycznymi naruszeniami bezpieczeństwa.",
+    "titleSumcoin": "Sumcoin",
+    "sumcoin1": "Sumcoin jest pierwszą kryptowalutą, która zaimplementowałem hybrydowy Proof of Work (POW) i Proof of Stake (POS) konsensus. Stworzona w 2012, działa już ponad<b>sześć lat</b> z zauważalnie mniejszą zużyciem energii niż czyste PoW (kopane) kryptowaluty takie jak Bitcoin. Przez te sześć lat Sumcoin night nie miał żadnego udziału w pre-miningu (udostępnienie tokenów w pierwszych blokach kryptowaluty, przed jej publicznym startem), nieuczciwymi ICO czy krytycznymi naruszeniami bezpieczeństwa.",
     "titleDisclaimer": "O",
-    "disclaimer1": "Zespół Peercoin'a, deweloper tego portfela, czy ktokolwiek zaangażowany z Peercoin'em nie ponosi żadnej odpowiedzialności za pieniądze stracone w skutek generowania portfela przez to narzędzie, albo jakiekolwiek inne dotyczące Peercoin'a albo inne kryptowaluty. Właściciel wygenerowanego portfela jest odpowiedzialny za swoje pieniądze i dlatego powinien postępować zgodnie ze wszystkimi krokami bezpieczeństwa w celu zapewnia im bezpieczeństwa. Robimy wszystko co możliwe, aby utrzymać to narzędzie zaktualizowane i bezpieczne. To narzędzie jest w 100% otwartoźródłowe.Jeśli znajdziesz jakieś bugi czy błędy, proszę zawiadom nas o tym w naszym repozytorium.",
+    "disclaimer1": "Zespół Sumcoin'a, deweloper tego portfela, czy ktokolwiek zaangażowany z Sumcoin'em nie ponosi żadnej odpowiedzialności za pieniądze stracone w skutek generowania portfela przez to narzędzie, albo jakiekolwiek inne dotyczące Sumcoin'a albo inne kryptowaluty. Właściciel wygenerowanego portfela jest odpowiedzialny za swoje pieniądze i dlatego powinien postępować zgodnie ze wszystkimi krokami bezpieczeństwa w celu zapewnia im bezpieczeństwa. Robimy wszystko co możliwe, aby utrzymać to narzędzie zaktualizowane i bezpieczne. To narzędzie jest w 100% otwartoźródłowe.Jeśli znajdziesz jakieś bugi czy błędy, proszę zawiadom nas o tym w naszym repozytorium.",
     "disclaimer2": "Głównym celem jest dostarczenie dobrych wrażeń dla użytkowników mobilnych, którzy bywają zapomniani przez klasyczne generatory portfeli. Używamy najnowszych technologii w celu dostarczeniu lepszych wrażeń, więc proszę zrozum, że starsze mogą nie działać tak jak powinny (albo w ogóle) z tą aplikacją.",
     "titleCredits": "O",
     "credits1": "Jest to otwartoźródłowe narzędzie, i jako takie, posiada biblioteki zewnętrzne (3rd party) z odpowiedimi licencjami. Mogą one być znalezione w repozytorium tej aplikacji.",
     "credits2": "Jeśli znajdziesz brak brak odpowiednich przypisów, proszę otwórz spór w naszym repozytorium.",
-    "credits3": "Stworzone przez <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, możliwe dzięki społeczności Peercoin'a."
+    "credits3": "Stworzone przez <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, możliwe dzięki społeczności Sumcoin'a."
   },
   "generator": {
     "title": "Przesuwaj palec w celu zapewnienia losowości.",

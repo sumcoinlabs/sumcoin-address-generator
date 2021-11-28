@@ -13,17 +13,17 @@
   "about": {
     "titleAbout": "Über",
     "backBtn": "Zurück",
-    "about1": "Dieser Wallet Generator wurde von Grund auf für Peercoin entwickelt.",
+    "about1": "Dieser Wallet Generator wurde von Grund auf für Sumcoin entwickelt.",
     "about2": "Hauptziel ist eine gute und schnelle Nutzererfahrung für mobile Benutzer zu kreieren, welche von klassischen Wallet Generatoren vernachlässigt zu sein scheinen. Wir benutzen neueste Browser Technologien um diese bessere Nutzererfahrung zu erreichen. Bitte habe Verständnis dafür, dass diese Applikation deswegen womöglich nicht wie erwartet (oder gar nicht) funktioniert.",
-    "titlePeercoin": "Peercoin",
+    "titleSumcoin": "Sumcoin",
     "titleDisclaimer": "Über",
-    "peercoin1": "Peercoin ist die erste Kryptowährung welche hybrid Proof of Work (PoW) und Proof of Stake (PoS) Algorithmen implementierte.\nErschaffen im Jahr 2012, läuft es seit mehr als <b>sechs Jahren</b> stabil, während es deutlich weniger Energie verbraucht als reine PoW Kryptowährungen wie Bitcoin.Während dieser sechs Jahre war Peercoin außerdem niemals in pre-mining, betrügerische ICOs oder kritische Sicherheitslücken verwickelt.",
-    "disclaimer1": "Das Peercoin Team, die Entwickler dieser Wallet oder Irgendjemand der mit Peercoin zu tun hat, tragen keinerlei Verantwortung für den Verlust von Geld der durch Wallet Generierung durch dieses Tool, oder durch jedwede andere Art welche Peercoin oder andere Kryptowährungen involviert. \nDer Eigentümer der generierten Wallet ist verantwortlich für sein Geld und muss alle erforderlichen Sicherheitsschritte veranlassen um die Sicherheit zu gewährleisten. Wir tun unser bestes um dieses Tool auf dem neuesten Stand und sicher wie möglich zu halten. Dieses Tool ist 100% quelloffen. Wenn du Bugs oder Probleme finden solltest, öffne bitte einen Bericht in unserem Repository. ",
+    "sumcoin1": "Sumcoin ist die erste Kryptowährung welche hybrid Proof of Work (PoW) und Proof of Stake (PoS) Algorithmen implementierte.\nErschaffen im Jahr 2012, läuft es seit mehr als <b>sechs Jahren</b> stabil, während es deutlich weniger Energie verbraucht als reine PoW Kryptowährungen wie Bitcoin.Während dieser sechs Jahre war Sumcoin außerdem niemals in pre-mining, betrügerische ICOs oder kritische Sicherheitslücken verwickelt.",
+    "disclaimer1": "Das Sumcoin Team, die Entwickler dieser Wallet oder Irgendjemand der mit Sumcoin zu tun hat, tragen keinerlei Verantwortung für den Verlust von Geld der durch Wallet Generierung durch dieses Tool, oder durch jedwede andere Art welche Sumcoin oder andere Kryptowährungen involviert. \nDer Eigentümer der generierten Wallet ist verantwortlich für sein Geld und muss alle erforderlichen Sicherheitsschritte veranlassen um die Sicherheit zu gewährleisten. Wir tun unser bestes um dieses Tool auf dem neuesten Stand und sicher wie möglich zu halten. Dieses Tool ist 100% quelloffen. Wenn du Bugs oder Probleme finden solltest, öffne bitte einen Bericht in unserem Repository. ",
     "disclaimer2": "Hauptziel ist eine gute und schnelle Nutzererfahrung für mobile Benutzer zu kreieren, welche von klassischen Wallet Generatoren vernachlässigt zu sein scheinen. Wir benutzen neueste Browser Technologien um diese bessere Nutzererfahrung zu erreichen. Bitte habe Verständnis dafür, dass diese Applikation deswegen womöglich nicht wie erwartet (oder gar nicht) funktioniert.",
     "titleCredits": "Über",
     "credits1": "Dies ist ein quelloffenes Tool. Als solches enthält es Inhalte von Drittparteien mit ihren entsprechenden Lizenzen. Diese können im Repository dieser Applikation gefunden werden.",
     "credits2": "Solltest du eine Anerkennung vermissen, öffne ein Issue in unserem Repository.",
-    "credits3": "Entwickelt von  <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, ermöglicht von der Peercoin Community."
+    "credits3": "Entwickelt von  <a href=\"https://twitter.com/kazzkiq/\" target=\"_blank\">@Kazzkiq</a>, ermöglicht von der Sumcoin Community."
   },
   "generator": {
     "title": "Für Zufälligkeit Finger wischen.",

@@ -1,10 +1,10 @@
 {
-  "name": "peercoin-address-generator",
-  "description": "Peercoin Address (Wallet) Generator",
+  "name": "sumcoin-address-generator",
+  "description": "Sumcoin Address (Wallet) Generator",
   "private": true,
   "author": "Claudio Holanda",
   "version": "1.2.5",
-  "repository": "https://github.com/peercoin/peercoin-address-generator.git",
+  "repository": "https://github.com/sumcoin/sumcoin-address-generator.git",
   "scripts": {
     "start": "brunch watch --server -n",
     "build": "brunch build",

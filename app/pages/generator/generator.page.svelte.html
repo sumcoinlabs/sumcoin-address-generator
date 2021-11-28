@@ -21,10 +21,10 @@
 <script>
   import roadtrip from 'roadtrip';
   import QRious from 'qrious';
-  import BigInteger from '../../helpers/peercoin/BigInteger';
-  import Peercoin from '../../helpers/peercoin/Peercoin';
-  import Base58 from '../../helpers/peercoin/Base58';
-  import ECurve from '../../helpers/peercoin/ECurve';
+  import BigInteger from '../../helpers/sumcoin/BigInteger';
+  import Sumcoin from '../../helpers/sumcoin/Sumcoin';
+  import Base58 from '../../helpers/sumcoin/Base58';
+  import ECurve from '../../helpers/sumcoin/ECurve';
   import Icon from '../../components/icon/icon.component.svelte';
   import { isCompatible } from '../../helpers/checkCompatibility';
 
@@ -130,7 +130,7 @@
           hasStarted: true,
           seedPercentage: (touches + 1) * 100 / totalTouches,
           touchList: touchList,
-          obfuscatedPartialSeed: Peercoin.Crypto.SHA256(touchList.join(''), null).repeat(10)
+          obfuscatedPartialSeed: Sumcoin.Crypto.SHA256(touchList.join(''), null).repeat(10)
         });
 
         this.addVisualPoint(e.touches[0].pageX, e.touches[0].pageY);
@@ -156,22 +156,22 @@
         const randomSeed = Array.from(window.crypto.getRandomValues(new Uint8Array(2048 / 8))).join('');
         const secret = `${randomSeed}:${initialTime}${touchList.join('')}${finalTime}`;
 
-        // Generating peercoin address/priv. key
-        const secretHash = Peercoin.Crypto.SHA256("" + secret);
-        let privateKeyBNP2TH = BigInteger.fromByteArrayUnsigned(Peercoin.Crypto.hexToBytes(secretHash));
+        // Generating sumcoin address/priv. key
+        const secretHash = Sumcoin.Crypto.SHA256("" + secret);
+        let privateKeyBNP2TH = BigInteger.fromByteArrayUnsigned(Sumcoin.Crypto.hexToBytes(secretHash));
         let pubKeyP2TH = ECurve.getPublicKey(privateKeyBNP2TH);
         let pub_keyP2TH = ((pubKeyP2TH.yParity === "even") ? "02" : "03") + pubKeyP2TH.x.toString();    
-        let sha = Peercoin.Crypto.SHA256(Peercoin.Crypto.hexToBytes(pub_keyP2TH), null);
-        let hash160 = Peercoin.Crypto.RIPEMD160(Peercoin.Crypto.hexToBytes(sha), null);
-        let hashAndBytes = Peercoin.Crypto.hexToBytes(hash160);
-        hashAndBytes.unshift(Peercoin.Address.networkVersion);//Peercoin Public Address lead Hex value 
-        let versionAndRipe = Peercoin.Crypto.bytesToHex(hashAndBytes);
+        let sha = Sumcoin.Crypto.SHA256(Sumcoin.Crypto.hexToBytes(pub_keyP2TH), null);
+        let hash160 = Sumcoin.Crypto.RIPEMD160(Sumcoin.Crypto.hexToBytes(sha), null);
+        let hashAndBytes = Sumcoin.Crypto.hexToBytes(hash160);
+        hashAndBytes.unshift(Sumcoin.Address.networkVersion);//Sumcoin Public Address lead Hex value 
+        let versionAndRipe = Sumcoin.Crypto.bytesToHex(hashAndBytes);
         let check = this.computeChecksum(versionAndRipe);
-        let address = Base58.encode(Peercoin.Crypto.hexToBytes(versionAndRipe + check.checksum));
+        let address = Base58.encode(Sumcoin.Crypto.hexToBytes(versionAndRipe + check.checksum));
         
         let pkWIF = "B7" + secretHash + "01"; //compressionflag
         let checkpr = this.computeChecksum(pkWIF);
-        let addresspriv = Base58.encode(Peercoin.Crypto.hexToBytes(pkWIF + checkpr.checksum));
+        let addresspriv = Base58.encode(Sumcoin.Crypto.hexToBytes(pkWIF + checkpr.checksum));
 
         // Send generated Address to new page
         window.store.set({
@@ -184,8 +184,8 @@
         });
       },
       computeChecksum(hx) {
-        var firstSHA = Peercoin.Crypto.SHA256(Peercoin.Crypto.hexToBytes(hx));
-        var secondSHA = Peercoin.Crypto.SHA256(Peercoin.Crypto.hexToBytes(firstSHA));
+        var firstSHA = Sumcoin.Crypto.SHA256(Sumcoin.Crypto.hexToBytes(hx));
+        var secondSHA = Sumcoin.Crypto.SHA256(Sumcoin.Crypto.hexToBytes(firstSHA));
         return {
           checksum: secondSHA.substr(0,8).toUpperCase(),
           nonChecksum: secondSHA.substr(8,secondSHA.length).toUpperCase()

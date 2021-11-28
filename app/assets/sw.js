@@ -3,7 +3,7 @@
  */
 
 const PRECACHE = '0.10';
-const RUNTIME = 'PEERCOIN-WALLET-GENERATOR';
+const RUNTIME = 'sumcoin-WALLET-GENERATOR';
 
 
 const urlsToCache = [

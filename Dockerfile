@@ -1,6 +1,6 @@
 FROM smebberson/alpine-nginx
 
-LABEL mantainer="Kazzkiq (peercoin.chat/direct/kazzkiq)"
+LABEL mantainer="Kazzkiq (sumcoin.chat/direct/kazzkiq)"
 
 # Adding NGINX configuration
 COPY nginx.conf /etc/nginx/nginx.conf

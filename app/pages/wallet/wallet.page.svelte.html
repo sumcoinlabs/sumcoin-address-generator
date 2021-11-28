@@ -43,10 +43,10 @@
   <nav class="share-menu {{(isShareMenuOpen) ? 'active' : ''}}">
     <div class="overlay" on:click="closeShareMenu()"></div>
     <ul class="menu">
-      <li><a href="{{actionDownloadTextFile()}}" download="peercoin_wallet.txt">{{$dictionary.wallet.menu.saveText}}</a></li>
+      <li><a href="{{actionDownloadTextFile()}}" download="sumcoin_wallet.txt">{{$dictionary.wallet.menu.saveText}}</a></li>
       <li><a href="#" on:click="actionCopyToClipboard(event)">{{{$dictionary.wallet.menu.copyAddress}}}</a></li>
       <li><a href="mailto:your-address-here@email.com?body={{actionGetMailBody()}}">{{$dictionary.wallet.menu.sendEmail}}</a></li>
-      <li><a href="{{actionDownloadJSONFile()}}" download="peercoin_wallet.json">{{$dictionary.wallet.menu.saveJSON}}</a></li>
+      <li><a href="{{actionDownloadJSONFile()}}" download="sumcoin_wallet.json">{{$dictionary.wallet.menu.saveJSON}}</a></li>
       <li><a href="#" on:click="actionPaperWallet(event)">{{$dictionary.wallet.menu.paperWallet}}</a></li>
     </ul>
   </nav>

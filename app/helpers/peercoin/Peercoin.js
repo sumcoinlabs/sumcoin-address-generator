@@ -1,6 +1,6 @@
 var BigInteger = require("./BigInteger");
 var Base58 = require("./Base58");
-//module Peercoin {
+//module Sumcoin {
 //////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
@@ -407,7 +407,7 @@ var Address = (function () {
         var bytes = hash.concat(checksum.slice(0, 4));
         return Base58.encode(bytes);
     };
-    Address.networkVersion = 0x37; // Peercoin mainnet
+    Address.networkVersion = 0x37; // Sumcoin mainnet
     return Address;
 })();
 exports.Address = Address;
@@ -766,9 +766,9 @@ function valueToBigInt(valueBuffer) {
 }
 exports.valueToBigInt = valueToBigInt;
 /**
- * Format a Peercoin value as a string.
+ * Format a Sumcoin value as a string.
  *
- * Takes a BigInteger or byte-array and returns that amount of Peercoins in a
+ * Takes a BigInteger or byte-array and returns that amount of Sumcoins in a
  * nice standard formatting.
  *
  * Examples:
@@ -790,7 +790,7 @@ function formatValue(valueBuffer) {
 }
 exports.formatValue = formatValue;
 /**
- * Parse a floating point string as a Peercoin value.
+ * Parse a floating point string as a Sumcoin value.
  *
  * Keep in mind that parsing user input is messy. You should always display
  * the parsed value back to the user to make sure we understood his input
